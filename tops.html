@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dresses - Clothes for Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">Clothes for Us</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dresses.html">Dresses</a></li>
+                <li><a href="tops.html">Tops</a></li>
+                <li><a href="jeans.html">Jeans</a></li>
+                <li><a href="shoes.html">Shoes</a></li>
+                <li><a href="skirts.html">Skirts</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="products">
+            <h2>Tops</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="images/tops1.jpg" alt="tops 1">
+                    <h3>Peplum Top</h3>
+                    <p>Rs. 1300</p>
+                    <label for="size">Size:</label>
+                    <select class="size">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                    </select>                    
+                    <button onclick="addToCart('tops 1', 1300)">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="images/tops2.jpg" alt="tops 2">
+                    <h3>Asymmetric Top</h3>
+                    <p>Rs. 999</p>
+                    <label for="size">Size:</label>
+                    <select class="size">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                    </select>
+                    <button onclick="addToCart('tops 2', 999)">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="images/tops3.jpg" alt="tops 3">
+                    <h3>Ribbed Top</h3>
+                    <p>Rs.1000</p>
+                    <label for="size">Size:</label>
+                    <select class="size">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                    </select>
+                    <button onclick="addToCart('tops 3', 1000)">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="images/tops4.jpg" alt="tops 4">
+                    <h3>Crop Top</h3>
+                    <p>Rs. 700</p>
+                    <label for="size">Size:</label>
+                    <select class="size">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                    </select>
+                    <button onclick="addToCart('tops 4', 700)">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="images/tops5.jpg" alt="tops 5">
+                    <h3>Off-Shoulder</h3>
+                    <p>Rs. 1100</p>
+                    <label for="size">Size:</label>
+                    <select class="size">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                    </select>
+                    <button onclick="addToCart('tops 5', 1100)">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-top">
+            <div class="footer-column">
+                <h4>About Us</h4>
+                <a href="#">Company</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Affiliates</a>
+                <a href="#">Stores</a>
+            </div>
+            <div class="footer-column">
+                <h4>Useful Links</h4>
+                <a href="#">Support</a>
+                <a href="#">Refund</a>
+                <a href="#">FAQ</a>
+                <a href="#">Feedback</a>
+                <a href="#">Stories</a>
+            </div>
+            <div class="footer-column">
+                <h4>Products</h4>
+                <a href="#">Dresses</a>
+                <a href="#">Tops</a>
+                <a href="#">Skirts</a>
+                <a href="#">Shoes</a>
+                <a href="#">Jeans</a>
+            </div>
+            <div class="footer-column">
+                <h4>Subscribe</h4>
+                <input type="email" placeholder="Your email">
+                <button>Subscribe</button>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Clothes for Us. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><img src="images/icon1.png" alt="Facebook"></a>
+                <a href="#"><img src="images/icon3.png" alt="Twitter"></a>
+                <a href="#"><img src="images/icon2.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
